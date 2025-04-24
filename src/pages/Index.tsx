@@ -6,6 +6,7 @@ import Hero from '@/components/Hero';
 import Features from '@/components/Features';
 import FeaturedProducts from '@/components/FeaturedProducts';
 import LearningSection from '@/components/LearningSection';
+import ChatBot from '@/components/ChatBot';
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
         <LearningSection />
       </main>
       <Footer />
+      <ChatBot />
     </div>
   );
 };
