@@ -1,4 +1,3 @@
-
 export interface Article {
   id: string;
   title: string;
@@ -47,7 +46,7 @@ export const ARTICLES: Article[] = [
       
       <p>Remember, organic gardening is a learning process. Take notes, be patient, and enjoy the journey of growing your own nutritious, organic vegetables!</p>
     `,
-    image: "https://images.unsplash.com/photo-1587049633312-d628ae10b530?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3132&q=80",
+    image: "/lovable-uploads/9bad4939-953a-420e-a2ed-a93ef7e1df8f.png",
     category: "Beginner Guides",
     date: "June 15, 2023",
     author: "Emma Wilson"
@@ -110,7 +109,7 @@ export const ARTICLES: Article[] = [
       
       <p>Remember that some plant damage is inevitable and often tolerable. The goal is to maintain plant health and harvest, not necessarily perfect-looking plants. With time, your garden's natural balance will improve, requiring less and less intervention.</p>
     `,
-    image: "https://images.unsplash.com/photo-1599588808511-92896d7cb36c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3133&q=80",
+    image: "/lovable-uploads/5172521c-7c72-4ae3-96a9-7f2e09562f6a.png",
     category: "Pest Control",
     date: "July 5, 2023",
     author: "Marcus Chen"
@@ -207,7 +206,7 @@ export const ARTICLES: Article[] = [
       
       <p>Composting closes the loop in your garden, reducing waste while creating a valuable resource that improves soil health and plant vigor naturally. The compost you make is truly one of the best gifts you can give your garden!</p>
     `,
-    image: "https://images.unsplash.com/photo-1582594692765-78b6973cd8ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    image: "/lovable-uploads/c8300659-5bbc-4c28-869d-c46b8279fef8.png",
     category: "Soil Health",
     date: "August 12, 2023",
     author: "Sophia Rodriguez"
@@ -336,7 +335,7 @@ export const ARTICLES: Article[] = [
       
       <p>Remember that these are general guidelines—your specific climate, microclimate, and annual weather variations will influence the optimal planting times. With experience and careful observation, you'll refine your planting calendar to match your unique growing conditions.</p>
     `,
-    image: "https://images.unsplash.com/photo-1591857177593-aec16c2fa8f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2942&q=80",
+    image: "/lovable-uploads/956bcb66-b795-40eb-8753-168ecc55e47c.png",
     category: "Growing Tips",
     date: "September 3, 2023",
     author: "Robert Johnson"
@@ -433,7 +432,7 @@ export const ARTICLES: Article[] = [
       
       <p>By implementing these water conservation strategies, you'll not only reduce your environmental footprint but also create a more resilient garden that can thrive even during dry periods. Remember that plants grown with moderate water stress often develop stronger roots and can actually produce more flavorful fruits and vegetables!</p>
     `,
-    image: "https://images.unsplash.com/photo-1622383563227-04401ab4e5ea?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2874&q=80",
+    image: "/lovable-uploads/ee6a16d9-36ce-44cd-9023-99b3e9044688.png",
     category: "Sustainability",
     date: "October 18, 2023",
     author: "Elena Patel"
@@ -590,7 +589,7 @@ export const ARTICLES: Article[] = [
       
       <p>Seed saving is both a science and an art. As you practice these techniques, you'll develop an intuitive understanding of your plants' lifecycles and contribute to a more sustainable and self-reliant garden. Each seed you save carries not just genetic material but the story of your garden and your own growing experience.</p>
     `,
-    image: "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    image: "/lovable-uploads/2773923e-e1cf-4b65-9a47-272f5cddb5a2.png",
     category: "Self-Sufficiency",
     date: "November 5, 2023",
     author: "Thomas Yang"
