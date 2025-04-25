@@ -18,7 +18,7 @@ export const PRODUCTS: Product[] = [
     name: "Organic Fertilizer",
     description: "Premium organic fertilizer for all types of plants",
     price: 19.99,
-    image: "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2940&q=80",
+    image: "/lovable-uploads/d91f8ae7-713e-4049-845c-f43465a13785.png", // Manure in wheelbarrow image
     category: "Fertilizers",
     inStock: true,
     featured: true,
@@ -29,7 +29,7 @@ export const PRODUCTS: Product[] = [
     name: "Heirloom Tomato Seeds",
     description: "Non-GMO heirloom tomato seed variety pack",
     price: 8.99,
-    image: "https://images.unsplash.com/photo-1592921539297-696c485f73e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2874&q=80",
+    image: "/lovable-uploads/f39dc204-b4c8-481a-acb5-d18523522ec1.png", // Young plant seedlings image
     category: "Seeds",
     inStock: true,
     featured: true,
@@ -40,7 +40,7 @@ export const PRODUCTS: Product[] = [
     name: "Bamboo Garden Tools Set",
     description: "Sustainable bamboo handled garden tool collection",
     price: 34.99,
-    image: "https://images.unsplash.com/photo-1526228653958-2fda2c7479eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2874&q=80",
+    image: "/lovable-uploads/88cb7586-f29b-4534-949d-449cd4905d9a.png", // Garden tools and compost image
     category: "Tools",
     inStock: true,
     featured: false,
@@ -51,7 +51,7 @@ export const PRODUCTS: Product[] = [
     name: "Compost Bin",
     description: "Outdoor compost bin for organic waste",
     price: 49.99,
-    image: "https://images.unsplash.com/photo-1580778452706-94d474846b9c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2874&q=80",
+    image: "/lovable-uploads/1e42d7ed-6250-44ab-a30b-ff4f05e5e702.png", // Hands holding soil image
     category: "Equipment",
     inStock: true,
     featured: false,
