@@ -69,7 +69,7 @@ const ProductCard: React.FC<ProductCardProps> = ({
         </Link>
         
         <div className="mt-3 flex items-center justify-between">
-          <p className="text-lg font-medium">${price.toFixed(2)}</p>
+          <p className="text-lg font-medium">UGX {price.toLocaleString()}</p>
           
           <Button
             variant={isInCart ? "outline" : "default"}

@@ -11,14 +11,14 @@ export interface Product {
   details: string;
 }
 
-// Mock product data
+// Mock product data with prices in UGX
 export const PRODUCTS: Product[] = [
   {
     id: "1",
     name: "Organic Fertilizer",
     description: "Premium organic fertilizer for all types of plants",
-    price: 19.99,
-    image: "/lovable-uploads/d91f8ae7-713e-4049-845c-f43465a13785.png", // Manure in wheelbarrow image
+    price: 75000, // Converted from $19.99 (approx. rate)
+    image: "/lovable-uploads/d91f8ae7-713e-4049-845c-f43465a13785.png",
     category: "Fertilizers",
     inStock: true,
     featured: true,
@@ -28,8 +28,8 @@ export const PRODUCTS: Product[] = [
     id: "2",
     name: "Heirloom Tomato Seeds",
     description: "Non-GMO heirloom tomato seed variety pack",
-    price: 8.99,
-    image: "/lovable-uploads/f39dc204-b4c8-481a-acb5-d18523522ec1.png", // Young plant seedlings image
+    price: 33000, // Converted from $8.99
+    image: "/lovable-uploads/f39dc204-b4c8-481a-acb5-d18523522ec1.png",
     category: "Seeds",
     inStock: true,
     featured: true,
@@ -39,8 +39,8 @@ export const PRODUCTS: Product[] = [
     id: "3",
     name: "Bamboo Garden Tools Set",
     description: "Sustainable bamboo handled garden tool collection",
-    price: 34.99,
-    image: "/lovable-uploads/88cb7586-f29b-4534-949d-449cd4905d9a.png", // Garden tools and compost image
+    price: 130000, // Converted from $34.99
+    image: "/lovable-uploads/88cb7586-f29b-4534-949d-449cd4905d9a.png",
     category: "Tools",
     inStock: true,
     featured: false,
@@ -50,8 +50,8 @@ export const PRODUCTS: Product[] = [
     id: "4",
     name: "Compost Bin",
     description: "Outdoor compost bin for organic waste",
-    price: 49.99,
-    image: "/lovable-uploads/1e42d7ed-6250-44ab-a30b-ff4f05e5e702.png", // Hands holding soil image
+    price: 185000, // Converted from $49.99
+    image: "/lovable-uploads/1e42d7ed-6250-44ab-a30b-ff4f05e5e702.png",
     category: "Equipment",
     inStock: true,
     featured: false,
@@ -61,7 +61,7 @@ export const PRODUCTS: Product[] = [
     id: "5",
     name: "Natural Pest Control Spray",
     description: "Plant-based pest control solution",
-    price: 12.99,
+    price: 48000, // Converted from $12.99
     image: "https://images.unsplash.com/photo-1574870111867-089730e5a72b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2874&q=80",
     category: "Pest Control",
     inStock: true,
@@ -72,7 +72,7 @@ export const PRODUCTS: Product[] = [
     id: "6",
     name: "Rain Barrel Collection System",
     description: "50 gallon rainwater collection barrel",
-    price: 79.99,
+    price: 300000, // Converted from $79.99
     image: "https://images.unsplash.com/photo-1560885673-2cdc12600ec8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2874&q=80",
     category: "Water Management",
     inStock: true,
@@ -83,7 +83,7 @@ export const PRODUCTS: Product[] = [
     id: "7",
     name: "Worm Composting Kit",
     description: "Indoor vermicomposting system",
-    price: 64.99,
+    price: 240000, // Converted from $64.99
     image: "https://images.unsplash.com/photo-1596467172252-04c3294502b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2825&q=80",
     category: "Composting",
     inStock: true,
@@ -94,7 +94,7 @@ export const PRODUCTS: Product[] = [
     id: "8",
     name: "Herb Garden Starter Kit",
     description: "Complete indoor herb growing set",
-    price: 29.99,
+    price: 110000, // Converted from $29.99
     image: "https://images.unsplash.com/photo-1555848962-6e79363ec58f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2833&q=80",
     category: "Kits",
     inStock: true,

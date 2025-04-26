@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import Navbar from '@/components/Navbar';
@@ -22,7 +21,6 @@ const ProductDetail = () => {
       const foundProduct = PRODUCTS.find(p => p.id === id);
       setProduct(foundProduct);
       
-      // Scroll to top when product changes
       window.scrollTo(0, 0);
     }
   }, [id]);
@@ -52,7 +50,6 @@ const ProductDetail = () => {
   const handleAddToCart = () => {
     setIsAdding(true);
     
-    // Add the product multiple times based on quantity
     for (let i = 0; i < quantity; i++) {
       addItem({
         id: product.id,
@@ -75,7 +72,6 @@ const ProductDetail = () => {
     }
   };
   
-  // Get related products (same category, excluding current product)
   const relatedProducts = PRODUCTS.filter(
     p => p.category === product.category && p.id !== product.id
   ).slice(0, 4);
@@ -107,7 +103,7 @@ const ProductDetail = () => {
               {product.category}
             </span>
             <h1 className="text-3xl md:text-4xl font-bold mb-2">{product.name}</h1>
-            <p className="text-2xl font-semibold mb-6">${product.price.toFixed(2)}</p>
+            <p className="text-2xl font-semibold mb-6">UGX {product.price.toLocaleString()}</p>
             
             <p className="text-muted-foreground mb-8">{product.description}</p>
             
