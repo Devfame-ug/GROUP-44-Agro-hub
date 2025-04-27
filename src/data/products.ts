@@ -121,5 +121,16 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     featured: false,
     details: "Our herb garden starter kit contains everything you need to grow fresh herbs indoors. The package includes 6 biodegradable pots, organic potting soil, 6 different herb seed varieties (basil, parsley, cilantro, chives, thyme, and mint), plant markers, and a comprehensive growing guide for year-round herbs."
+  },
+  {
+    id: "11",
+    name: "Corn-Based Biofuel Mix",
+    description: "Sustainable biofuel mix made from corn and organic materials",
+    price: 225000,
+    image: "/lovable-uploads/d9c51ed8-912c-40b9-aac1-6e4ccc04550d.png",
+    category: "Biofuel",
+    inStock: true,
+    featured: true,
+    details: "Our premium corn-based biofuel mix is sustainably sourced and processed for optimal energy production. This eco-friendly alternative fuel source is perfect for agricultural machinery and small-scale energy production. Each batch is carefully tested for quality and energy content. The mix includes processed corn kernels and other organic materials optimized for biofuel production."
   }
 ];
