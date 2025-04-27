@@ -1,4 +1,3 @@
-
 export interface Product {
   id: string;
   name: string;
@@ -59,6 +58,28 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: "5",
+    name: "Farming Analytics App",
+    description: "Digital tool for modern agriculture management",
+    price: 48000,
+    image: "/lovable-uploads/a7d0b323-9190-4923-88e2-85c63b446aed.png",
+    category: "Digital Tools",
+    inStock: true,
+    featured: true,
+    details: "Our farming analytics application helps farmers track crop health, predict yields, and optimize resource usage. Features include crop monitoring, weather forecasting, and inventory management. The app works offline and syncs data when connected to the internet."
+  },
+  {
+    id: "6",
+    name: "Premium Horse Feed",
+    description: "High-quality nutrition for equine health",
+    price: 300000,
+    image: "/lovable-uploads/d5d44967-16c7-4e6e-b0f3-db818223c171.png",
+    category: "Animal Feed",
+    inStock: true,
+    featured: false,
+    details: "Our premium horse feed is formulated with high-quality grains, vitamins, and minerals to support optimal equine health. The balanced nutrition promotes healthy coat, strong hooves, and sustained energy. Each batch is tested for quality and nutritional content."
+  },
+  {
+    id: "7",
     name: "Natural Pest Control Spray",
     description: "Plant-based pest control solution",
     price: 48000, // Converted from $12.99
@@ -69,7 +90,7 @@ export const PRODUCTS: Product[] = [
     details: "Our natural pest control spray is made from essential oils and plant extracts that effectively deter common garden pests without harming beneficial insects or contaminating your crops. The 16oz bottle comes with a trigger sprayer for easy application and is safe to use on edible plants right up to harvest day."
   },
   {
-    id: "6",
+    id: "8",
     name: "Rain Barrel Collection System",
     description: "50 gallon rainwater collection barrel",
     price: 300000, // Converted from $79.99
@@ -80,7 +101,7 @@ export const PRODUCTS: Product[] = [
     details: "Our rain barrel collection system captures rainwater from your gutters for garden use, reducing water bills and promoting sustainable water usage. The 50-gallon food-grade plastic barrel includes a spigot, overflow valve, mesh screen to keep out debris, and a connection kit for standard downspouts."
   },
   {
-    id: "7",
+    id: "9",
     name: "Worm Composting Kit",
     description: "Indoor vermicomposting system",
     price: 240000, // Converted from $64.99
@@ -91,7 +112,7 @@ export const PRODUCTS: Product[] = [
     details: "Turn your kitchen scraps into nutrient-rich vermicompost with our indoor worm composting kit. The 3-tray system includes a base with spigot for collecting worm tea, three working trays, a lid, bedding material, and comprehensive instructions. Worms sold separately or available with kit for an additional fee."
   },
   {
-    id: "8",
+    id: "10",
     name: "Herb Garden Starter Kit",
     description: "Complete indoor herb growing set",
     price: 110000, // Converted from $29.99
