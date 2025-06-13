@@ -1,4 +1,3 @@
-
 export interface Product {
   id: string;
   name: string;
@@ -122,5 +121,49 @@ export const PRODUCTS: Product[] = [
     inStock: true,
     featured: false,
     details: "Our premium cashmere fiber is sourced from Himalayan goats raised in pristine mountain environments. This ultra-fine fiber is incredibly soft, lightweight, and provides excellent insulation. Perfect for luxury textile production, the cashmere is carefully combed and processed to maintain its natural properties and exceptional quality."
+  },
+  {
+    id: "11",
+    name: "Premium Bone Meal",
+    description: "Organic bone meal fertilizer from grass-fed livestock",
+    price: 95000,
+    image: "https://images.unsplash.com/photo-1574870111867-089730e5a72b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2874&q=80",
+    category: "Organic Fertilizers",
+    inStock: true,
+    featured: true,
+    details: "Our premium bone meal is made from bones of organically-raised, grass-fed cattle. This slow-release fertilizer is rich in phosphorus and calcium, making it ideal for flowering plants, bulbs, and fruit trees. The bones are steam-processed to ensure safety and to concentrate nutrients. Perfect for promoting strong root development and vibrant blooms."
+  },
+  {
+    id: "12",
+    name: "Organic Blood Meal",
+    description: "High-nitrogen blood meal from ethically sourced livestock",
+    price: 110000,
+    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2874&q=80",
+    category: "Organic Fertilizers",
+    inStock: true,
+    featured: false,
+    details: "Our organic blood meal is a premium nitrogen-rich fertilizer made from the blood of organically-raised animals. With a nitrogen content of 12-15%, it provides quick-release nutrition for leafy greens, vegetables, and nitrogen-hungry plants. The blood is carefully dried and processed to create a fine powder that's easy to apply and fast-acting."
+  },
+  {
+    id: "13",
+    name: "Premium Meat Meal",
+    description: "Concentrated protein fertilizer from organic livestock",
+    price: 125000,
+    image: "https://images.unsplash.com/photo-1465379944081-7f47de8d74ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=2874&q=80",
+    category: "Organic Fertilizers",
+    inStock: true,
+    featured: true,
+    details: "Our premium meat meal is a concentrated organic fertilizer made from rendered meat and organs of organically-raised livestock. This high-protein fertilizer provides sustained nitrogen release along with essential amino acids. It's excellent for vegetable gardens, fruit trees, and any plants requiring long-term nutrition. The rendering process ensures pathogen-free, nutrient-dense fertilizer."
+  },
+  {
+    id: "14",
+    name: "Horn and Hoof Meal",
+    description: "Slow-release nitrogen fertilizer from organic cattle",
+    price: 135000,
+    image: "https://images.unsplash.com/photo-1493962853295-0fd70327578a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2874&q=80",
+    category: "Organic Fertilizers",
+    inStock: true,
+    featured: false,
+    details: "Our horn and hoof meal is made from the horns and hooves of organically-raised cattle. This premium slow-release fertilizer provides consistent nitrogen over 6-12 months, making it perfect for perennial plants, trees, and long-season crops. The keratin-rich material breaks down gradually, feeding plants throughout the growing season while improving soil structure."
   }
 ];
