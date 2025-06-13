@@ -89,7 +89,7 @@ const Cart = () => {
                 <div className="space-y-3 mb-6">
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Subtotal</span>
-                    <span>${totalPrice.toFixed(2)}</span>
+                    <span>UGX {totalPrice.toLocaleString()}</span>
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Shipping</span>
@@ -104,13 +104,15 @@ const Cart = () => {
                   
                   <div className="flex justify-between font-medium text-lg">
                     <span>Total</span>
-                    <span>${totalPrice.toFixed(2)}</span>
+                    <span>UGX {totalPrice.toLocaleString()}</span>
                   </div>
                 </div>
                 
-                <Button className="w-full" size="lg">
-                  Proceed to Checkout
-                </Button>
+                <Link to="/checkout">
+                  <Button className="w-full" size="lg">
+                    Proceed to Checkout
+                  </Button>
+                </Link>
                 
                 {!user && (
                   <div className="mt-4 text-center text-sm text-muted-foreground">

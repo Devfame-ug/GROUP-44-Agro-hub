@@ -1,3 +1,4 @@
+
 export interface Product {
   id: string;
   name: string;
@@ -14,123 +15,112 @@ export interface Product {
 export const PRODUCTS: Product[] = [
   {
     id: "1",
-    name: "Organic Fertilizer",
-    description: "Premium organic fertilizer for all types of plants",
-    price: 75000, // Converted from $19.99 (approx. rate)
-    image: "/lovable-uploads/d91f8ae7-713e-4049-845c-f43465a13785.png",
-    category: "Fertilizers",
+    name: "Premium Wool Collection",
+    description: "High-quality natural wool from organic sheep farms",
+    price: 180000,
+    image: "https://images.unsplash.com/photo-1586521995568-39abaa0c2311?ixlib=rb-4.0.3&auto=format&fit=crop&w=2874&q=80",
+    category: "Natural Fibers",
     inStock: true,
     featured: true,
-    details: "Our premium organic fertilizer is made from 100% natural ingredients, providing essential nutrients to your plants without harmful chemicals. It's perfect for vegetables, flowers, and herbs, and helps improve soil structure and microbial activity. This slow-release formula ensures continuous nutrition for up to 3 months."
+    details: "Our premium wool collection features the finest natural fibers from organically-raised sheep. Each batch is carefully processed to maintain the wool's natural properties including softness, warmth retention, and durability. Perfect for textile manufacturing, crafts, and insulation. The wool is ethically sourced from farms that practice sustainable and humane animal care."
   },
   {
     id: "2",
-    name: "Heirloom Tomato Seeds",
-    description: "Non-GMO heirloom tomato seed variety pack",
-    price: 33000, // Converted from $8.99
-    image: "/lovable-uploads/f39dc204-b4c8-481a-acb5-d18523522ec1.png",
-    category: "Seeds",
+    name: "Premium Leather Skins & Hides",
+    description: "Naturally processed leather hides from sustainable farms",
+    price: 450000,
+    image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=2874&q=80",
+    category: "Leather Products",
     inStock: true,
     featured: true,
-    details: "Our heirloom tomato seed pack includes 5 different varieties of non-GMO, open-pollinated tomatoes that have been passed down through generations. Each packet contains 25 seeds with high germination rates. Varieties include Brandywine, Cherokee Purple, Green Zebra, Black Krim, and San Marzano."
+    details: "Our premium leather collection includes naturally processed hides from sustainably-raised cattle. Each hide is carefully tanned using traditional methods without harmful chemicals. The leather is perfect for furniture, clothing, accessories, and craft projects. We ensure ethical sourcing and environmentally-friendly processing methods."
   },
   {
     id: "3",
-    name: "Bamboo Garden Tools Set",
-    description: "Sustainable bamboo handled garden tool collection",
-    price: 130000, // Converted from $34.99
-    image: "/lovable-uploads/88cb7586-f29b-4534-949d-449cd4905d9a.png",
-    category: "Tools",
+    name: "Premium Feather Collection",
+    description: "Soft natural feathers for various applications",
+    price: 95000,
+    image: "https://images.unsplash.com/photo-1484406566174-9da000fda645?ixlib=rb-4.0.3&auto=format&fit=crop&w=2874&q=80",
+    category: "Natural Materials",
     inStock: true,
     featured: false,
-    details: "This 5-piece bamboo garden tool set includes a trowel, cultivator, weeder, pruner, and transplanter. Each tool features a sustainable bamboo handle and durable stainless steel working parts. The ergonomic design reduces hand fatigue during long gardening sessions, and the included canvas storage bag keeps everything organized."
+    details: "Our premium feather collection includes duck, goose, and chicken feathers of various sizes and qualities. These naturally-sourced feathers are cleaned and sanitized for use in pillows, comforters, decorative items, and craft projects. The feathers are ethically sourced from farms that maintain high standards of animal welfare."
   },
   {
     id: "4",
-    name: "Compost Bin",
-    description: "Outdoor compost bin for organic waste",
-    price: 185000, // Converted from $49.99
-    image: "/lovable-uploads/1e42d7ed-6250-44ab-a30b-ff4f05e5e702.png",
-    category: "Equipment",
+    name: "Organic Animal Fat",
+    description: "Pure organic animal fat for soap making and cooking",
+    price: 75000,
+    image: "https://images.unsplash.com/photo-1574870111867-089730e5a72b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2874&q=80",
+    category: "Organic Products",
     inStock: true,
     featured: false,
-    details: "Our 80-gallon outdoor compost bin is made from recycled plastic and features a secure lid, ventilation holes, and a bottom door for easy compost removal. Its double-wall construction helps maintain heat for faster decomposition, and the UV-resistant material ensures durability in all weather conditions."
+    details: "Our organic animal fat is rendered from grass-fed cattle and free-range animals. This pure, clean fat is perfect for traditional soap making, candle production, and cooking applications. The fat is processed without chemicals and maintains its natural properties. It's an excellent sustainable alternative for various household and commercial uses."
   },
   {
     id: "5",
-    name: "Farming Analytics App",
-    description: "Digital tool for modern agriculture management",
-    price: 48000,
-    image: "/lovable-uploads/a7d0b323-9190-4923-88e2-85c63b446aed.png",
-    category: "Digital Tools",
+    name: "Premium Chicken Manure",
+    description: "High-quality organic chicken manure fertilizer",
+    price: 85000,
+    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2874&q=80",
+    category: "Fertilizers",
     inStock: true,
     featured: true,
-    details: "Our farming analytics application helps farmers track crop health, predict yields, and optimize resource usage. Features include crop monitoring, weather forecasting, and inventory management. The app works offline and syncs data when connected to the internet."
+    details: "Our premium chicken manure is composted and aged to perfection, providing one of the richest natural fertilizers available. High in nitrogen, phosphorus, and potassium, it's ideal for vegetable gardens, flower beds, and fruit trees. The manure is fully composted to eliminate pathogens and reduce odor while maximizing nutrient content."
   },
   {
     id: "6",
-    name: "Premium Horse Feed",
-    description: "High-quality nutrition for equine health",
-    price: 300000,
-    image: "/lovable-uploads/d5d44967-16c7-4e6e-b0f3-db818223c171.png",
-    category: "Animal Feed",
+    name: "Organic Sheep Wool Insulation",
+    description: "Natural wool insulation for eco-friendly construction",
+    price: 320000,
+    image: "https://images.unsplash.com/photo-1586521995568-39abaa0c2311?ixlib=rb-4.0.3&auto=format&fit=crop&w=2874&q=80",
+    category: "Construction Materials",
     inStock: true,
     featured: false,
-    details: "Our premium horse feed is formulated with high-quality grains, vitamins, and minerals to support optimal equine health. The balanced nutrition promotes healthy coat, strong hooves, and sustained energy. Each batch is tested for quality and nutritional content."
+    details: "Our organic sheep wool insulation provides excellent thermal and acoustic properties for sustainable building projects. This natural insulation is fire-resistant, moisture-regulating, and completely biodegradable. It's perfect for eco-friendly homes and buildings that prioritize health and environmental sustainability."
   },
   {
     id: "7",
-    name: "Natural Pest Control Spray",
-    description: "Plant-based pest control solution",
-    price: 48000, // Converted from $12.99
-    image: "https://images.unsplash.com/photo-1574870111867-089730e5a72b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2874&q=80",
-    category: "Pest Control",
+    name: "Premium Goose Down",
+    description: "Ultra-soft goose down for luxury bedding",
+    price: 280000,
+    image: "https://images.unsplash.com/photo-1484406566174-9da000fda645?ixlib=rb-4.0.3&auto=format&fit=crop&w=2874&q=80",
+    category: "Natural Materials",
     inStock: true,
     featured: true,
-    details: "Our natural pest control spray is made from essential oils and plant extracts that effectively deter common garden pests without harming beneficial insects or contaminating your crops. The 16oz bottle comes with a trigger sprayer for easy application and is safe to use on edible plants right up to harvest day."
+    details: "Our premium goose down is the finest quality available, sourced from ethically-raised geese. This ultra-soft down provides exceptional warmth-to-weight ratio and is perfect for luxury bedding, outerwear, and high-end textile applications. Each batch is carefully cleaned and sorted to ensure consistent quality."
   },
   {
     id: "8",
-    name: "Rain Barrel Collection System",
-    description: "50 gallon rainwater collection barrel",
-    price: 300000, // Converted from $79.99
-    image: "https://images.unsplash.com/photo-1560885673-2cdc12600ec8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2874&q=80",
-    category: "Water Management",
+    name: "Natural Beeswax",
+    description: "Pure beeswax from sustainable apiaries",
+    price: 120000,
+    image: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?ixlib=rb-4.0.3&auto=format&fit=crop&w=2874&q=80",
+    category: "Natural Products",
     inStock: true,
     featured: false,
-    details: "Our rain barrel collection system captures rainwater from your gutters for garden use, reducing water bills and promoting sustainable water usage. The 50-gallon food-grade plastic barrel includes a spigot, overflow valve, mesh screen to keep out debris, and a connection kit for standard downspouts."
+    details: "Our natural beeswax is harvested from sustainable apiaries that prioritize bee health and environmental conservation. This pure, unprocessed wax is perfect for candle making, wood finishing, leather conditioning, and cosmetic applications. The beeswax retains its natural honey scent and golden color."
   },
   {
     id: "9",
-    name: "Worm Composting Kit",
-    description: "Indoor vermicomposting system",
-    price: 240000, // Converted from $64.99
-    image: "https://images.unsplash.com/photo-1596467172252-04c3294502b7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2825&q=80",
-    category: "Composting",
+    name: "Organic Compost",
+    description: "Rich organic compost for healthy soil",
+    price: 65000,
+    image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2874&q=80",
+    category: "Fertilizers",
     inStock: true,
     featured: true,
-    details: "Turn your kitchen scraps into nutrient-rich vermicompost with our indoor worm composting kit. The 3-tray system includes a base with spigot for collecting worm tea, three working trays, a lid, bedding material, and comprehensive instructions. Worms sold separately or available with kit for an additional fee."
+    details: "Our organic compost is made from carefully selected organic materials including kitchen scraps, yard waste, and animal manures. This nutrient-rich soil amendment improves soil structure, water retention, and provides essential nutrients for plant growth. The compost is fully decomposed and ready to use."
   },
   {
     id: "10",
-    name: "Herb Garden Starter Kit",
-    description: "Complete indoor herb growing set",
-    price: 110000, // Converted from $29.99
-    image: "https://images.unsplash.com/photo-1555848962-6e79363ec58f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2833&q=80",
-    category: "Kits",
+    name: "Premium Cashmere Fiber",
+    description: "Luxury cashmere fiber from Himalayan goats",
+    price: 650000,
+    image: "https://images.unsplash.com/photo-1586521995568-39abaa0c2311?ixlib=rb-4.0.3&auto=format&fit=crop&w=2874&q=80",
+    category: "Luxury Fibers",
     inStock: true,
     featured: false,
-    details: "Our herb garden starter kit contains everything you need to grow fresh herbs indoors. The package includes 6 biodegradable pots, organic potting soil, 6 different herb seed varieties (basil, parsley, cilantro, chives, thyme, and mint), plant markers, and a comprehensive growing guide for year-round herbs."
-  },
-  {
-    id: "11",
-    name: "Corn-Based Biofuel Mix",
-    description: "Sustainable biofuel mix made from corn and organic materials",
-    price: 225000,
-    image: "/lovable-uploads/d9c51ed8-912c-40b9-aac1-6e4ccc04550d.png",
-    category: "Biofuel",
-    inStock: true,
-    featured: true,
-    details: "Our premium corn-based biofuel mix is sustainably sourced and processed for optimal energy production. This eco-friendly alternative fuel source is perfect for agricultural machinery and small-scale energy production. Each batch is carefully tested for quality and energy content. The mix includes processed corn kernels and other organic materials optimized for biofuel production."
+    details: "Our premium cashmere fiber is sourced from Himalayan goats raised in pristine mountain environments. This ultra-fine fiber is incredibly soft, lightweight, and provides excellent insulation. Perfect for luxury textile production, the cashmere is carefully combed and processed to maintain its natural properties and exceptional quality."
   }
 ];
