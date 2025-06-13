@@ -38,7 +38,7 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
         <Link to={`/product/${item.id}`} className="text-lg font-medium hover:text-primary transition-colors">
           {item.name}
         </Link>
-        <p className="text-muted-foreground">${item.price.toFixed(2)}</p>
+        <p className="text-muted-foreground">UGX {item.price.toLocaleString()}</p>
       </div>
       
       <div className="flex items-center gap-2">
@@ -64,7 +64,7 @@ const CartItem: React.FC<CartItemProps> = ({ item }) => {
       </div>
       
       <div className="w-20 text-right font-medium">
-        ${(item.price * item.quantity).toFixed(2)}
+        UGX {(item.price * item.quantity).toLocaleString()}
       </div>
       
       <Button
