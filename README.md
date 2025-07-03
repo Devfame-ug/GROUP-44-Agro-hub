@@ -1,4 +1,4 @@
-
+#welcome to AGRO HUB PROJRCT
 🚀 Overview
 AgroHub is a comprehensive web platform designed to empower farmers and agricultural stakeholders by providing essential tools for crop management, market access, and knowledge sharing. Our goal is to streamline farming operations, foster community, and promote sustainable agricultural practices.
 ✨ Features
@@ -82,9 +82,9 @@ If you encounter any bugs, have questions, or need support, please don't hesitat
 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 📞 Contact
- * Your Name/Team Name: [Your Name or Team Name]
- * Email: [your.email@example.com]
- * GitHub: https://github.com/your-username
+ * COMPANY: [GROUP 44]
+ * Email: [kalanzishafic22@gmail.com]
+ * GitHub: https://github.com/devfame-ug
  * Project Website (Optional): https://www.agrohub.com
 🙏 Acknowledgements (Optional)
 We'd like to extend our gratitude to the following:
